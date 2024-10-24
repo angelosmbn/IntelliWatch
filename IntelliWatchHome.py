@@ -737,8 +737,8 @@ MAKE SURE TO LIMIT THE RESULT TO 300 WORDS OR BELOW
 
     def send_email(self, analysis, filename):
         # Send an email notification with attached images
-        email_sender = "intelliwatch.fall@gmail.com"
-        email_password = "nlqa kouy vstk rxqy"
+        email_sender = ""
+        email_password = ""
         email_receiver = self.email
 
         subject = "URGENT: A FALL HAS BEEN DETECTED!"
